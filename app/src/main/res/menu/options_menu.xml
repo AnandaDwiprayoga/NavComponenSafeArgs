@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/termsAndConditions"
+        android:title="Terms &amp; Conditions"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:menuCategory="secondary"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <!--  menuCategory secondary make when navigate to settings and
+    back to the last screen, not the home screen.
+    Note: it will work if using same id with fragment and using onNavDestinationSelected-->
+</menu>
